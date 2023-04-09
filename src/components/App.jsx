@@ -25,7 +25,6 @@ class App extends Component {
     const { good, neutral, bad } = this.state;
     return (
       <div className={css.container}>
-
         <Section title={'Please leave youre feedback about our service'}>         
           <FeedbackOptions
             options={Object.keys(this.state)}

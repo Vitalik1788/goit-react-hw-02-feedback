@@ -3,7 +3,7 @@ import css from "../Statistic/Statistic.module.css";
 import Notification from '../Notification/Notification';
 
 const Statistic = ({ good, neutral, bad, total, positivePercentage }) => (
-  total === 0 ? (<Notification message={'There is no feedback'} />) : (<div>
+  total === 0 ? (<Notification message={'There is no feedbacks'} />) : (<div>
     <ul className={css.stats_list}>
       <li className={css.stats_item}> Good: {good}</li>
       <li className={css.stats_item}> Neutral: {neutral}</li>
